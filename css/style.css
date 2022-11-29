@@ -84,7 +84,14 @@ i:hover {
   color: white;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1440px) {
+
+  main {
+    background-image: url("../images/bg-desktop.svg");
+    width: 100%;
+    height: 100%;
+  }
+
   .invisibleWrapper {
     display: flex;
   }
@@ -92,4 +99,26 @@ i:hover {
   .socials {
     text-align: end;
   }
+
+  .top {
+    flex: 1;
+  }
+
+  .bottom {
+    text-align: left;
+    flex: 1;
+    margin: auto 3rem;
+    align-items:center;
+    justify-content:center;
+  }
+
+  h1 {
+    font-size: 40px;
+    line-height: 3rem;
+  }
+
+  button {
+    padding: 1rem 5rem;
+  }
+
 }
